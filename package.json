@@ -1,0 +1,18 @@
+{
+  "name": "nello",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "nello": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "pkg package.json --target node8-linux-x64"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "pkg": "^4.3.0-beta.1"
+  }
+}
