@@ -1,3 +1,5 @@
+%global __os_install_post %{nil}
+%global debug_package %{nil}
 Name:           nello
 Version:        1.0.0
 Release:        1%{?dist}
